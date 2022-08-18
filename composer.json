@@ -1,0 +1,25 @@
+{
+  "name": "vendor/new",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "38098",
+      "email": "feeling_of_infinity@outlook.com"
+    }
+  ],
+
+  "require": {
+    "ext-pdo": "*",
+    "gabordemooij/redbean": "dev-master",
+    "vlucas/valitron": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "gr\\": "vendor/gr",
+      "app\\": "app"
+    }
+  }
+}
